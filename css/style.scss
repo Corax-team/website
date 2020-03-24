@@ -1,0 +1,50 @@
+---
+#// Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap"); // Get the correct font
+
+html, // Remove BS default padding and margin
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #232733;
+  color: white;
+  font-family: "VT323", monospace;
+}
+
+main {
+  margin-top: 10rem;
+  text-align: center;
+  @media screen and (min-width: 990px) {
+    margin: 10rem auto auto auto;
+    width: 80%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+#title {
+  font-size: 5rem;
+}
+
+#about {
+  font-size: 2rem;
+}
+
+#github {
+  font-size: 2rem;
+}
+
+#htb {
+  margin-top: 1rem;
+}
+
+.url {
+  color: #29435a;
+  :visited {
+    color: #29435a;
+  }
+}
