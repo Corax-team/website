@@ -33,6 +33,9 @@ github_username:  corax-team
 plugins:
   - jekyll-feed
 
+# Sass/Scss settings
+sass:
+  sass_dir: css
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
