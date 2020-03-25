@@ -17,3 +17,25 @@
 #htb {
   margin-top: 1rem;
 }
+
+#logo-secondary {
+  display: none;
+  max-width: 80%;
+  margin: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 660px) {
+  #logo-primary {
+    display: none;
+  }
+  #logo-secondary {
+    display: block;
+  }
+  #title {
+    font-size: 3rem;
+  }
+  #about {
+    font-size: 2rem;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-#// Front matter comment to ensure Jekyll properly reads file.
+# // Front matter comment to ensure Jekyll properly reads file.
 ---
 
 @import url("https://fonts.googleapis.com/css?family=VT323&display=swap"); // Get the correct font
@@ -13,10 +13,8 @@ body {
   font-family: "VT323", monospace;
 }
 
-main {
-  margin-top: 10rem;
-  text-align: center;
-  @media screen and (min-width: 990px) {
+@media screen and (min-width: 990px) {
+  main {
     margin: 10rem auto auto auto;
     width: 80%;
     top: 0;
@@ -26,8 +24,14 @@ main {
   }
 }
 
+main {
+  margin: 1rem 0;
+  text-align: center;
+}
+
 a {
   color: #29435a;
+
   :visited {
     color: #29435a;
   }
