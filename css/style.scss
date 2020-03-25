@@ -19,17 +19,6 @@ body {
   font-family: "VT323", monospace;
 }
 
-@media screen and (min-width: 990px) {
-  main {
-    margin: 10rem auto auto auto;
-    width: 80%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-}
-
 main {
   margin: 1rem 0;
   text-align: center;
@@ -40,5 +29,16 @@ a {
 
   :visited {
     color: #29435a;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  main {
+    margin: 10rem auto auto auto;
+    width: 80%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
