@@ -24,24 +24,31 @@
   margin-top: 1rem;
 }
 
-#logo-secondary {
+#logo-primary {
   display: none;
+}
+
+#logo-secondary {
+  display: block;
   max-width: 50%;
   margin: auto;
   height: auto;
 }
 
 @media screen and (max-width: 660px) {
-  #logo-primary {
+/*  #logo-primary {
     display: none;
-  }
-  #logo-secondary {
-    display: block;
-  }
+  }*/
   #title {
     font-size: 3rem;
   }
   #about {
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 661px) {
+  #logo-secondary {
+    max-height: 300px;
   }
 }
