@@ -32,6 +32,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Include files that start with _
+include: ["_headers"]
+
+
+
 # Sass/Scss settings
 sass:
   sass_dir: css
