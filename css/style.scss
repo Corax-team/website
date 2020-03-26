@@ -6,8 +6,8 @@
 
 :root {
   --text-color-primary: white;
-  --background-color-primary: #232733;
-  --background-color-secondary: #313b58;
+  --background-color-primary: #1C1F28;
+  --background-color-secondary: #232733;
 }
 
 html,
@@ -27,13 +27,13 @@ html {
     var(--background-color-primary) 0%,
     var(--background-color-secondary) 100%
   );*/
-  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
-    linear-gradient(
-      to top,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(0, 0, 0, 0.25) 200%
-    );
-  background-blend-mode: multiply;
+  background: rgb(28, 31, 40);
+  background: linear-gradient(
+    180deg,
+    var(--background-color-primary) 0%,
+    var(--background-color-secondary) 50%,
+    var(--background-color-primary) 100%
+  );
 }
 main {
   margin: 1rem 0;
