@@ -1,17 +1,29 @@
 ---
 #// Front matter comment to ensure Jekyll properly reads file.
 ---
-;;;
 
+//!
 @font-face {
   font-family: Hacked;
   src: url("/static/Hacked-KerX.ttf");
+}
+
+@keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
 }
 
 #title {
   font-size: 5rem;
   font-family: Hacked, monospace;
   letter-spacing: 8px;
+  animation: color-rotate 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 #about {
@@ -38,7 +50,7 @@
 }
 
 @media screen and (max-width: 660px) {
-/*  #logo-primary {
+  /*  #logo-primary {
     display: none;
   }*/
   #title {
