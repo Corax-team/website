@@ -1,14 +1,17 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{site.title}}</title>
-<meta name="description" content="{{site.description}}"/>
-
-
-
-
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="{{site.description}}" />
+{%- if page.tags -%}
+<meta name="keywords" content="{{site.tags}},{{page.tags}}" />
+{%- else -%}
+<meta name="keywords" content="{{site.tags}}" />
+{%- endif -%}
 
 <link rel="stylesheet" href="css/style.css" />
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<!--Default stylesheet-->
 {%- if page.css-file -%}
 <link rel="stylesheet" href="css/{{page.css-file}}.css" />
+<!-- Include a page's sty -->
 {%- endif -%}
