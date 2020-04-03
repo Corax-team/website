@@ -2,67 +2,19 @@
 #// Front matter comment to ensure Jekyll properly reads file.
 ---
 
-//!
+* {
+}
+
 @font-face {
   font-family: Hacked;
   src: url("/static/Hacked-KerX.ttf");
 }
 
-@keyframes color-rotate {
-  from {
-    filter: hue-rotate(0deg);
-  }
-  to {
-    filter: hue-rotate(360deg);
-  }
+header .title {
+  font-family: "Hacked", monospace;
+  font-size: 3rem;
 }
 
-#title {
-  font-size: 5rem;
-  font-family: Hacked, monospace;
-  letter-spacing: 8px;
-  animation: color-rotate 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-#about {
-  font-size: 2rem;
-}
-
-#links {
-  font-size: 2rem;
-}
-
-#htb {
-  margin-top: 1rem;
-}
-
-#logo-primary {
-  display: none;
-}
-
-#logo-secondary {
-  display: block;
-  max-width: 50%;
-  margin: auto;
-  height: auto;
-}
-
-@media screen and (max-width: 660px) {
-  /*  #logo-primary {
-    display: none;
-  }*/
-  #title {
-    font-size: 3rem;
-  }
-  #about {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (min-width: 661px) {
-  #logo-secondary {
-    max-height: 300px;
-  }
+header .description {
+  font-size: 1.5rem;
 }
