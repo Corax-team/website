@@ -10,11 +10,35 @@
   src: url("/static/Hacked-KerX.ttf");
 }
 
-header .title {
-  font-family: "Hacked", monospace;
-  font-size: 3rem;
+header {
+  .title {
+    font-family: "Hacked", monospace;
+    font-size: 3rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
 }
 
-header .description {
-  font-size: 1.5rem;
+div.members {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+
+  .information {
+    float: left;
+    margin-right: 1rem;
+  }
+
+  .member-list {
+    float: right;
+    padding-left: 1rem;
+    border-left: solid 2px black
+  }
+  li {
+    font-size: 1.5rem;
+  }
 }
