@@ -44,6 +44,6 @@ When you commit your changes, please use infinitive form for your commit message
 
 If your commit simply contains formatting, please prepend your commit message with `[skip ci]`
 
-## Pull  request descriptions
+## Pull request descriptions
 
 Please use the provided formats for describing your issue.

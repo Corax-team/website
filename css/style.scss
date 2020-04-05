@@ -61,6 +61,7 @@
 
 /* #endregion */
 /* #region default boring stuff (padding, font, color, etc) */
+
 html {
   height: 100%;
 }
@@ -87,6 +88,7 @@ a {
   color: currentColor;
   text-decoration: none;
 }
+
 /* #endregion */
 /* #region navbar */
 
@@ -121,6 +123,7 @@ a {
 
 /* #endregion */
 /* #region dropdown */
+
 .dropdown {
   position: absolute;
   width: 500px;
@@ -186,15 +189,17 @@ a {
 
 /* #endregion */
 /* #region main */
+
 main {
   max-width: 80%;
   margin: auto;
   flex: 1 0 auto;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 800px) {
     max-width: 100%;
     margin: auto 0.5rem;
   }
 }
+
 /* #endregion */
 
 @import "footer.scss", "header.scss";
