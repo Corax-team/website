@@ -200,6 +200,10 @@ main {
   max-width: 80%;
   margin: auto;
   flex: 1 0 auto;
+  @media screen and (max-width: 800px){
+    max-width: 100%;
+    margin: auto 0.5rem;
+  }
 }
 /* #endregion */
 

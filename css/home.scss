@@ -20,7 +20,8 @@ header {
   }
 }
 
-div.members {
+div.about {
+  margin-bottom: 1rem;
   h1 {
     font-size: 2rem;
   }
@@ -31,14 +32,10 @@ div.members {
   .information {
     float: left;
     margin-right: 1rem;
+    border-bottom: solid 2px black;
   }
-
-  .member-list {
-    float: right;
-    padding-left: 1rem;
-    border-left: solid 2px black
-  }
-  li {
-    font-size: 1.5rem;
-  }
+}
+.member {
+  font-size: 1.5rem;
+  display: inline list-item;
 }
