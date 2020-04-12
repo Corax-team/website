@@ -33,7 +33,7 @@ plugins:
   - jekyll-sitemap
 
 # Include files that start with _
-include: ["_headers"]
+include: ["_headers", "backgrounds.zip"]
 
 # Sass/Scss settings
 sass:
