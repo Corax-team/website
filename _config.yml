@@ -16,7 +16,7 @@
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# in the templates via {{ site.myvariable }}
 
 title: Team Corax
 email: corax@corax.team
@@ -26,18 +26,25 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://corax.team" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: corax
+logo: /img/logo.png
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Include files that start with _
 include: ["_headers", "backgrounds.zip"]
 
 # Sass/Scss settings
 sass:
-  sass_dir: css
+  sass_dir: static/css
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
