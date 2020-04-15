@@ -2,8 +2,13 @@
 # // Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import url("https://fonts.googleapis.com/css?family=VT323&display=swap"); // Get the correct font
+@debug "yes";
 
+@font-face {
+  font-family: "VT323";
+  src: local("VT323"),
+    url("https://fonts.googleapis.com/css?family=VT323&display=swap"); // Get the correct font
+}
 /* #region variables*/
 
 :root {
