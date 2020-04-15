@@ -1,6 +1,6 @@
 # Corax Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/85706887-2f8e-491f-887e-1ce7994bc58c/deploy-status)](https://app.netlify.com/sites/corax-team/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c38877e5-c25e-4196-833b-1b6cde8983bc/deploy-status)](https://app.netlify.com/sites/team-corax/deploys)
 
 This is the repository hosting [Team Corax](https://corax.team)'s website.
 
