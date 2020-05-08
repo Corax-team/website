@@ -7,4 +7,15 @@ footer {
   margin-bottom: 1rem;
   margin-top: 50px;
   flex-shrink: 0;
+
+  padding-top: 1rem;
+  border-top: 1px white solid;
+
+  #links {
+    margin-right: 1rem;
+    a {
+      margin: 0.3rem;
+      font-size: 1.5rem;
+    }
+  }
 }
