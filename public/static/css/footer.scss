@@ -4,18 +4,30 @@ footer {
   align-items: center;
   width: 100%;
   text-align: center;
-  margin-bottom: 1rem;
-  margin-top: 50px;
   flex-shrink: 0;
-
+  flex-wrap: wrap;
+  
+  margin-bottom: 1rem;
+  margin-top: 2rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   border-top: 1px white solid;
 
   #links {
-    margin-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 710px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
     a {
       margin: 0.3rem;
       font-size: 1.5rem;
+
+      &:hover {
+        text-decoration: underline 1px;
+      }
     }
   }
 }

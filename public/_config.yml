@@ -20,13 +20,11 @@
 
 title: Team Corax
 email: corax@corax.team
-description: >- # this means to ignore newlines until "baseurl:"
-  We are a Norwegian CTF team focused on learning all things security-related,
-  solving puzzles and having fun
-baseurl: "" # the subpath of your site, e.g. /blog
+site_description: We are a Norwegian CTF team focused on learning all things security-related, solving puzzles and having fun.
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://corax.team" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: corax
-logo: /img/logo.png
+logo: /static/img/logo.png
 
 # Build settings
 plugins:

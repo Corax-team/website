@@ -8,7 +8,7 @@ layout: default
 
   <p class="description"><strong>Page not found :(</strong></p>
   <p class="verbose">The requested page could not be found.</p>
-  <a class="back-home" href="/">Back to home</a>
+  <a class="back-home" href="/" id="link">Back to home</a>
 </div>
 <style>
   .container {
@@ -25,5 +25,8 @@ layout: default
   .description,
   .back-home {
     font-size: 2rem;
+  }
+  #link:hover {
+    text-decoration: underline 1px;
   }
 </style>
