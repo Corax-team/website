@@ -1,9 +1,0 @@
-# Matches all paths:
-/*
-  # Default headers (Can be overridden):
-  X-Frame-Options: SAMEORIGIN
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: same-origin
-  Content-Security-Policy: default-src 'unsafe-inline' https:
-  Feature-Policy: camera 'none'
-  Server: Some piece of software that may or may not contain easter eggs for you to find

@@ -1,0 +1,31 @@
+[build]
+  base = "src/"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = false
+  minify = true
+
+[build.processing.js]
+  bundle = false
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.images]
+  compress = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
