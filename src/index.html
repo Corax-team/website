@@ -1,75 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Corax</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Team Corax</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/static/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/static/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/static/img/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/static/img/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/static/img/favicon.ico" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png?v=2">
-  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png?v=2">
-  <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png?v=2">
-  <link rel="manifest" href="/static/img/site.webmanifest?v=2">
-  <link rel="mask-icon" href="/static/img/safari-pinned-tab.svg?v=2" color="#2f0743">
-  <link rel="shortcut icon" href="/static/img/favicon.ico?v=2">
-  <meta name="msapplication-TileColor" content="#603cba">
-  <meta name="msapplication-config" content="/static/img/browserconfig.xml?v=2">
-  <meta name="theme-color" content="#2f0743">
+    <link rel="stylesheet" href="/static/css/style.css" />
 
-  <link rel="stylesheet" href="/static/css/style.css" />
+    <!-- meta -->
+    <meta name="theme-color" content="#2f0743" />
+    <meta name="author" content="Team Corax" />
+    <meta
+      name="description"
+      content="A Norwegian CTF team focused on all things security-related. Discere plus."
+    />
+    <meta name="referrer" content="strict-origin" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="index, follow" />
 
-  <!---->
-  <meta name="theme-color" content="#2f0743" />
-  <meta name="author" content="Team Corax" />
-  <meta name="description" content="A Norwegian CTF team focused on all things security-related. Discere plus." />
-  <meta name="referrer" content="strict-origin" />
-  <meta name="color-scheme" content="light dark" />
-  <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Team Corax" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://corax.team" />
+    <meta property="og:image" content="/static/img/android-chrome-512x512.png" />
+    <meta
+      property="og:description"
+      content="A Norwegian CTF team focused on all things security-related. Discere plus"
+    />
+    <meta property="og:locale" content="en_US" />
 
-  <meta property="og:title" content="Team Corax" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ site.url }}/" />
-  <meta property="og:image" content="{{ site.url }}/static/img/corax.png" />
-  <meta property="og:description" content="A Norwegian CTF team focused on all things security-related. Discere plus" />
-  <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@CoraxTeam" />
+  </head>
 
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@CoraxTeam" />
-  <meta name="twitter:creator" content="@s1lv3r__" />
+  <body>
+    <header>
+      <img id="logo" src="/static/img/corvus.svg" alt="Team logo" />
+      <h1 id="teamname">Team Corax</h1>
+      <h2 style="margin-top: 1rem; font-style: italic;" id="slogan">Discere plus</h2>
+    </header>
 
-  <link rel="alternate" type="application/json+oembed"
-    href="https://embeds.ga/oembed/?name=&url={{ site.url | uri_escape }}" />
-
-</head>
-
-<body>
-  <header>
-    <img id="logo" src="/static/img/corax_gif.gif" alt="Team logo" />
-    <h1 id="teamname">Team Corax</h1>
-    <h2 id="slogan">
-      Discere plus
-    </h2>
-  </header>
-
-  <main>
-    <div id="about">
-      <h1>About us</h1>
-      <p>
-        Our team consists of a varied group of individuals with different
-        backgrounds and skillsets. We've got a mix of young talent, and experienced
-        IT professionals, coming together to inspire and learn from each other. In
-        2020 the Norwegian Intelligence Service hosted a CTF to attract cyber
-        talents, and this group was formed following that event for those of us who
-        wanted to continue solving challenges.
-      </p>
-    </div>
-  </main>
-  <footer>
-    <a href="https://github.com/corax" target="_blank" id="github">GitHub</a> |
-    <a href="https://twitter.com/CoraxTeam" target="_blank" id="twitter">Twitter</a> |
-    <a href="https://ctftime.org/team/113107" target="_blank" id="ctftime">CTFtime</a> |
-    <a href="https://www.hackthebox.eu/home/teams/profile/2528" id="hackthebox" target="_blank">HackTheBox</a>
-  </footer>
-</body>
-
+    <main>
+      <div id="about">
+        <h2>About us</h2>
+        <p>
+          Our team consists of a varied group of individuals with different
+          backgrounds and skillsets. We've got a mix of young talent, and
+          experienced IT professionals, coming together to inspire and learn
+          from each other.
+        </p>
+        <p>
+          In 2020 the Norwegian Intelligence Service hosted a CTF to attract
+          cyber talents, and this group was formed following that event for
+          those of us who wanted to continue solving challenges.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <a href="https://github.com/corax" target="_blank" id="github"> GitHub</a>
+      |
+      <a href="https://twitter.com/CoraxTeam" target="_blank" id="twitter">
+        Twitter</a
+      >
+      |
+      <a href="https://ctftime.org/team/113107" target="_blank" id="ctftime">
+        CTFtime</a
+      >
+      |
+      <a
+        href="https://www.hackthebox.eu/home/teams/profile/2528"
+        id="hackthebox"
+        target="_blank"
+      >
+        HackTheBox</a
+      >
+    </footer>
+  </body>
 </html>

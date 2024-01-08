@@ -29,6 +29,10 @@ body {
   max-width: 250px;
 }
 
+#logo #eye:hover {
+  fill: red;
+}
+
 body>* {
   max-width: 880px;
   margin: 0 1rem;
@@ -40,4 +44,14 @@ body>:last-child {
 
 body>:first-child {
   margin-top: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
