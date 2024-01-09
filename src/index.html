@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width" />
     <title>Team Corax</title>
 
     <link
@@ -46,7 +46,10 @@
     <meta property="og:title" content="Team Corax" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://corax.team" />
-    <meta property="og:image" content="/static/img/android-chrome-512x512.png" />
+    <meta
+      property="og:image"
+      content="/static/img/android-chrome-512x512.png"
+    />
     <meta
       property="og:description"
       content="A Norwegian CTF team focused on all things security-related. Discere plus"
@@ -58,46 +61,53 @@
   </head>
 
   <body>
-    <header>
-      <img id="logo" src="/static/img/corvus.svg" alt="Team logo" />
-      <h1 id="teamname">Team Corax</h1>
-      <h2 style="margin-top: 1rem; font-style: italic;" id="slogan">Discere plus</h2>
-    </header>
-
-    <main>
-      <div id="about">
-        <h2>About us</h2>
-        <p>
-          Our team consists of a varied group of individuals with different
-          backgrounds and skillsets. We've got a mix of young talent, and
-          experienced IT professionals, coming together to inspire and learn
-          from each other.
-        </p>
-        <p>
-          In 2020 the Norwegian Intelligence Service hosted a CTF to attract
-          cyber talents, and this group was formed following that event for
-          those of us who wanted to continue solving challenges.
-        </p>
+    <div style="display: contents;">
+      <div id="body-wrapper">
+        <header>
+          <img id="logo" src="/static/img/corvus.svg" alt="Team logo" />
+          <h1 id="teamname">Team Corax</h1>
+          <h2 style="margin-top: 1rem; font-style: italic" id="slogan">
+            Discere plus
+          </h2>
+        </header>
+        <main>
+          <div id="about">
+            <h2>About us</h2>
+            <p>
+              Our team consists of a varied group of individuals with different
+              backgrounds and skillsets. We've got a mix of young talent, and
+              experienced IT professionals, coming together to inspire and learn
+              from each other.
+            </p>
+            <p>
+              In 2020 the Norwegian Intelligence Service hosted a CTF to attract
+              cyber talents, and this group was formed following that event for
+              those of us who wanted to continue solving challenges.
+            </p>
+          </div>
+        </main>
+        <footer>
+          <a href="https://github.com/corax" target="_blank" id="github">
+            GitHub</a
+          >
+          |
+          <a href="https://twitter.com/CoraxTeam" target="_blank" id="twitter">
+            Twitter</a
+          >
+          |
+          <a href="https://ctftime.org/team/113107" target="_blank" id="ctftime">
+            CTFtime</a
+          >
+          |
+          <a
+            href="https://www.hackthebox.eu/home/teams/profile/2528"
+            id="hackthebox"
+            target="_blank"
+          >
+            HackTheBox</a
+          >
+        </footer>
       </div>
-    </main>
-    <footer>
-      <a href="https://github.com/corax" target="_blank" id="github"> GitHub</a>
-      |
-      <a href="https://twitter.com/CoraxTeam" target="_blank" id="twitter">
-        Twitter</a
-      >
-      |
-      <a href="https://ctftime.org/team/113107" target="_blank" id="ctftime">
-        CTFtime</a
-      >
-      |
-      <a
-        href="https://www.hackthebox.eu/home/teams/profile/2528"
-        id="hackthebox"
-        target="_blank"
-      >
-        HackTheBox</a
-      >
-    </footer>
+    </div>
   </body>
 </html>

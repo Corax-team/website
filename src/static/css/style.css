@@ -5,6 +5,10 @@
   font-display: swap;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: #2a2e35;
@@ -16,34 +20,37 @@ body {
   font-family: monospace;
   text-align: center;
   font-size: x-large;
+  overflow: hidden;
 }
 
-body {
+#body-wrapper {
   display: flex;
+  height: 100%;
+  width: 100%;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  overflow: auto;
+  margin: 0;
+  padding: 1rem;
+}
+
+#body-wrapper > * {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 880px;
 }
 
 #logo {
   max-width: 250px;
 }
 
-#logo #eye:hover {
-  fill: red;
+#body-wrapper > :first-child {
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
-body>* {
-  max-width: 880px;
-  margin: 0 1rem;
-}
-
-body>:last-child {
-  margin-bottom: 1rem;
-}
-
-body>:first-child {
-  margin-top: 1rem;
+#body-wrapper > :last-child {
+  margin-bottom: auto;
+  padding-bottom: 1rem;
 }
 
 h1 {
@@ -54,4 +61,12 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+}
+
+a {
+  color: rgb(115, 159, 237);
+}
+
+a:current {
+  color: rgb(140, 140, 255);
 }
