@@ -65,8 +65,29 @@ h2 {
 
 a {
   color: rgb(115, 159, 237);
+  text-decoration: none;
 }
 
 a:current {
   color: rgb(140, 140, 255);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer > * {
+  margin: 0 0.75rem;
+}
+
+.link-icons {
+  width: 2rem;
+  height: 2rem;
+  transition: 0.2s;
+}
+
+.link-icons:hover {
+  filter: brightness(0.6)
 }
